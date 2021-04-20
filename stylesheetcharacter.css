@@ -39,6 +39,14 @@ p {
 }
 /*text!*/
 
+iframe {
+         width: 500px;
+         height: 500px:
+         align: center;
+         margin-left: auto;   /* Automatic margin from left */
+         margin-right: auto; /* Automatic margin from right */
+}
+
 footer {
   color: #f2f2f2;
   text-align: center;
