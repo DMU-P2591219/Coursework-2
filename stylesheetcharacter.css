@@ -1,0 +1,46 @@
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/791029071173517393/832558374927335464/download1111.jpg");
+}
+
+.topnav1 {
+  background-color: #29538E;
+  text-align: center;
+  overflow: hidden;
+}
+
+.topnav1 a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/*Topnav was made from CW1's code in order to navigate between the different sections*/
+h1 {
+  color: #f2f2f2;
+  text-align: center;
+  background-color: #29538E;
+}
+/*heading*/
+h2 {
+  color: #f2f2f2;
+  text-align: center;
+  background-color: #29538E;
+}
+/*heading*/
+p {
+  color: #f2f2f2;
+  background-color: #29538E;
+  text-align: center;
+  width: 520px;
+  padding: 10px;
+  margin: 0 auto;
+}
+/*text!*/
+
+footer {
+  color: #f2f2f2;
+  text-align: center;
+  background-color: #29538E;
+}

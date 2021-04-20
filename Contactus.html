@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheetcontactus.css">
+<link rel="stylesheet" href="stylesheetjavatopnav.css">
+<!-- this links to the .CSS file for any formatting of the code-->
+</head>
+<body>
+<section>
+  <div class="topnav" id="myTopnav">
+    <a href="Home.html" class="active">Home</a>
+    <a href="Character Sheet.html" class="active">Part 1 creating a character</a>
+    <a href="Contactus.html" class="active">Contact Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars">
+    <img src="download.png" alt="Menu Dropdown" width="25" height="25">
+      </i>
+    </a>
+  </div>
+
+  <script src="javascript.js"></script>
+  </section>
+<!-- This allows us to navigate through the web pages-->
+<section>
+    <div class="container">
+    <div style="text-align:center">
+      <h1>Contact the DM!</h1>
+      <p>Swing by to roll a d20 or leave us a message!</p>
+    </div>
+    <div class="row">
+      <div class="column1">
+        <img src="letsroll.png" style="width:100%">
+      </div>
+      <div class="column2">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+        	 <option value="united kingdom">United Kingdom</option>
+        	 <option value="australia">Australia</option>
+        	 <option value="canada">Canada</option>
+        	 <option value="usa">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+  </section>
+<!-- This makes the contact form-->
+</body>
+</html>
